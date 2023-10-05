@@ -14,8 +14,7 @@ Let's start with a simple example from our `MyAddon` template, where we make ham
 ### Creating the Hook
 
 In the `lua/autorun/myaddon.lua` file of your addon, we define a hook using `hook.Add`. Here's how it looks:
-
-```lua
+```
 hook.Add("Think", "CheckHamburgerInOven", function()
     local hamburger = ents.FindByName("hamburger_prop_name")[1]
     local oven = ents.FindByName("oven_prop_name")[1]
@@ -23,7 +22,7 @@ hook.Add("Think", "CheckHamburgerInOven", function()
     if IsValid(hamburger) and IsValid(oven) and hamburger:GetPos():Distance(oven:GetPos()) < 10 then
         hamburger:Remove()
     end
-end)
+end)```
 
 In this example:
 - We use the `"Think"` event, which runs every frame.
