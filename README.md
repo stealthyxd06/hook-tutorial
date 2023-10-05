@@ -29,7 +29,7 @@ This repository serves as a template and tutorial for creating Garry's Mod addon
 
 ## Hook Tutorial
 
-Visit the [Hook Tutorial]([HOOK_TUTORIAL.md](https://github.com/stealthyxd06/hook-tutorial/blob/main/HOOK_TUTORIAL.MD)) file for a detailed guide on using hooks in Garry's Mod addons.
+Visit the [Hook Tutorial]([https://github.com/stealthyxd06/hook-tutorial/blob/main/HOOK_TUTORIAL.MD]) file for a detailed guide on using hooks in Garry's Mod addons.
 
 ## Credits
 
