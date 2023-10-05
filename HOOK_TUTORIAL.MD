@@ -1,6 +1,4 @@
 
-
-```markdown
 # Garry's Mod Hook Tutorial
 
 This tutorial provides an introduction to using hooks in Garry's Mod addons. Hooks are a powerful way to interact with and modify game events and functionality.
@@ -26,7 +24,6 @@ hook.Add("Think", "CheckHamburgerInOven", function()
         hamburger:Remove()
     end
 end)
-```
 
 In this example:
 - We use the `"Think"` event, which runs every frame.
