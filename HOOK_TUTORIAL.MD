@@ -24,7 +24,7 @@ hook.Add("Think", "CheckHamburgerInOven", function()
     end
 end)
 
-
+```
 
 
 
