@@ -15,7 +15,8 @@ Let's start with a simple example from our `MyAddon` template, where we make ham
 
 In the `lua/autorun/myaddon.lua` file of your addon, we define a hook using `hook.Add`. Here's how it looks:
 
-```hook.Add("Think", "CheckHamburgerInOven", function()
+```lua
+hook.Add("Think", "CheckHamburgerInOven", function()
     local hamburger = ents.FindByName("hamburger_prop_name")[1]
     local oven = ents.FindByName("oven_prop_name")[1]
     
