@@ -1,7 +1,5 @@
 # Garry's Mod Addon Template and Hook Tutorial
 
-![Addon Logo](images/logo.png)
-
 ## Description
 
 This repository serves as a template and tutorial for creating Garry's Mod addons with a focus on using hooks. It includes a basic example of an addon that makes hamburgers vanish when placed in an oven, showcasing the use of hooks.
@@ -35,11 +33,7 @@ Visit the [Hook Tutorial](HOOK_TUTORIAL.md) file for a detailed guide on using h
 
 ## Credits
 
-- Created by Your Name.
-
-## License
-
-This template and tutorial are released under the [MIT License](LICENSE.md).
+- StealthyxD
 
 ## Troubleshooting
 
