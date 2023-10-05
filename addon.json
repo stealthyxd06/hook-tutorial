@@ -1,0 +1,28 @@
+{
+    "title": "Gmod Addon Hook tutorial", 
+    "type": "content",
+    "tags": ["Fun"],
+    "ignore": ["*.psd", "*.xcf", "*.blend", "*.jpg", "*.jpeg", "*.png", "*.tga", "*.mp3", "*.wav"],
+    "description": "this is my tutorial on how to create a simple hook addon",
+    "addonversion": "1",
+    "version": "1.0.0",
+    "author_name": "your name",
+    "author_email": "your_email@example.com",
+    "author_url": "https://www.example.com",
+    "content": [
+        {
+            "filepath": "lua/autorun/main.lua"
+        },
+        {
+            "filepath": "materials/mytexture.vmt"
+        },
+        {
+            "filepath": "models/mymodel/mymodel.mdl"
+        },
+        {
+            "filepath": "sound/mysound.wav"
+        }
+    ]
+}
+
+
